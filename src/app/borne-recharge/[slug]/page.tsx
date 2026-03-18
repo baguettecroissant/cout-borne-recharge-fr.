@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { notFound } from "next/navigation";
 import { getCityFromSlug, generateCityMetadata } from "@/lib/seo-utils";
 import { getCityIntro } from "@/lib/text-utils";
