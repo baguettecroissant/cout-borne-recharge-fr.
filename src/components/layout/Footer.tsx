@@ -39,11 +39,7 @@ export function Footer() {
                     >
                         Comparer les prix
                     </Link>
-                    <div className="mt-6">
-                        <Link href="https://www.cout-panneau-photovoltaique.fr" className="text-sm text-slate-400 hover:text-lime-400 transition-colors">
-                            🔗 Recharger avec le solaire →
-                        </Link>
-                    </div>
+
                 </div>
             </div>
             <div className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-800 text-center text-slate-400">
