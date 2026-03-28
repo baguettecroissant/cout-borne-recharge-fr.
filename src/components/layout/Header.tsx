@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Zap, Menu, X, BookOpen, MapPin, Tag } from "lucide-react";
+import { Zap, Menu, X, BookOpen, MapPin, Tag, BatteryCharging } from "lucide-react";
 
 export function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,6 +11,7 @@ export function Header() {
     const navLinks = [
         { href: "/guides", label: "Guides", icon: BookOpen },
         { href: "/marques", label: "Marques", icon: Tag },
+        { href: "/calculateur-temps-charge", label: "Calculateur", icon: BatteryCharging },
         { href: "/annuaire", label: "Annuaire", icon: MapPin },
     ];
 

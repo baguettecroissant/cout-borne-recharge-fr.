@@ -25,6 +25,7 @@ export async function GET(request: Request, { params }: Props) {
             { loc: `${baseUrl}/marques`, priority: '0.8', changefreq: 'monthly' },
             { loc: `${baseUrl}/annuaire`, priority: '0.8', changefreq: 'monthly' },
             { loc: `${baseUrl}/faq`, priority: '0.7', changefreq: 'monthly' },
+            { loc: `${baseUrl}/calculateur-temps-charge`, priority: '0.9', changefreq: 'weekly' },
             { loc: `${baseUrl}/mentions-legales`, priority: '0.3', changefreq: 'yearly' },
         ];
 
