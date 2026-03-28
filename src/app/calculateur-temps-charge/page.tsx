@@ -387,7 +387,7 @@ export default function CalculateurTempsCharge() {
             <div className="lg:col-span-2 space-y-6">
 
               {/* Main result */}
-              <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-violet-600 rounded-3xl p-6 md:p-8 text-white text-center relative overflow-hidden sticky top-24">
+              <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-violet-600 rounded-3xl p-6 md:p-8 text-white text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(255,255,255,0.1),transparent_50%)]" />
                 <div className="relative z-10">
                   <p className="text-blue-200 text-sm mb-4">
